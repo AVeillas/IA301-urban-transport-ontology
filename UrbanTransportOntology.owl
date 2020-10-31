@@ -1,0 +1,1972 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/david/ontologies/2020/9/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/david/ontologies/2020/9/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/david/ontologies/2020/9/untitled-ontology-6"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>An urban transport ontology aiming at providing a recommendation system for users, based on 11 predefined use cases.
+
+Authors: Karen Hubert, Axel Veillas, David Carteau</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AccessibleToDisabledPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AffordableAndAccessibleTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BestQualityPriceRatioTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarPooling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarbonFootprint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comfort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompactCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisabledFriendliness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisabledFriendlyTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomainThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EcoFriendlyTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricBike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricScooter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elitist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expensive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ferry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FivePeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FourPeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Free"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighDensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HybridOrElectricCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LittlePolluting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowDensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LuxuryTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaxCapacity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumDensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModeratelyRisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoreThanFivePeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorbike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Métro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoPolluting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotAccessibleToDisabledPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotFrequent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnDemand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnePerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PickupPointsDensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polluting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Railway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riverway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roadway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SUV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SedanCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuitableForAnEmergencyTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuitableForFamiliesTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuitableForLargeGroupTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuitableForSchoolGroupTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuitableForWorkersTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tramway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportModeProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TwoPeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TwoWheeler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnipersonalRiskyTransportMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VeryFast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VeryPolluting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VerySlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Walk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Train_(suburbs)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCarbonFootprint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComfort"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDensePickupPoints"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDisabledFriendliness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFrequency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaxCapacity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRisk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpeed"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AffordableAndAccessibleTransportMode"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCost"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Cheap"/>
+                    <Class IRI="#Free"/>
+                    <Class IRI="#Moderate"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasDensePickupPoints"/>
+                <Class IRI="#HighDensity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BestQualityPriceRatioTransportMode"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasComfort"/>
+                <ObjectUnionOf>
+                    <Class IRI="#High"/>
+                    <Class IRI="#Medium"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCost"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Cheap"/>
+                    <Class IRI="#Free"/>
+                    <Class IRI="#Medium"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSpeed"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Fast"/>
+                    <Class IRI="#VeryFast"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DisabledFriendlyTransportMode"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EcoFriendlyTransportMode"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <ObjectUnionOf>
+                <Class IRI="#LittlePolluting"/>
+                <Class IRI="#NoPolluting"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LuxuryTransportMode"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasComfort"/>
+                <Class IRI="#High"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCost"/>
+                <Class IRI="#Elitist"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SuitableForAnEmergencyTransportMode"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFrequency"/>
+                <Class IRI="#OnDemand"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasRisk"/>
+                <ObjectUnionOf>
+                    <Class IRI="#ModeratelyRisky"/>
+                    <Class IRI="#Safe"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSpeed"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Fast"/>
+                    <Class IRI="#VeryFast"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SuitableForFamiliesTransportMode"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasComfort"/>
+                <ObjectUnionOf>
+                    <Class IRI="#High"/>
+                    <Class IRI="#Medium"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMaxCapacity"/>
+                <ObjectUnionOf>
+                    <Class IRI="#FivePeople"/>
+                    <Class IRI="#MoreThanFivePeople"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasRisk"/>
+                <ObjectUnionOf>
+                    <Class IRI="#ModeratelyRisky"/>
+                    <Class IRI="#Safe"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SuitableForLargeGroupTransportMode"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#MoreThanFivePeople"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SuitableForSchoolGroupTransportMode"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCost"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Cheap"/>
+                    <Class IRI="#Free"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMaxCapacity"/>
+                <ObjectUnionOf>
+                    <Class IRI="#FivePeople"/>
+                    <Class IRI="#MoreThanFivePeople"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasRisk"/>
+                <Class IRI="#Safe"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SuitableForWorkersTransportMode"/>
+        <ObjectIntersectionOf>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasCost"/>
+                    <Class IRI="#Elitist"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasFrequency"/>
+                    <Class IRI="#NotFrequent"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UnipersonalRiskyTransportMode"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMaxCapacity"/>
+                <Class IRI="#TwoPeople"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasRisk"/>
+                <Class IRI="#Risky"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AccessibleToDisabledPerson"/>
+        <Class IRI="#DisabledFriendliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AffordableAndAccessibleTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BestQualityPriceRatioTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <Class IRI="#TwoWheeler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#NoPolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Low"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Free"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#NotAccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Risky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#Slow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Roadway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Cheap"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDensePickupPoints"/>
+            <Class IRI="#HighDensity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#Frequent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#MoreThanFivePeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Safe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#Slow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <Class IRI="#Personal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#FivePeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <Class IRI="#Shared"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Moderate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDensePickupPoints"/>
+            <Class IRI="#LowDensity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#NotAccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#Frequent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Risky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarPooling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#Fast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarbonFootprint"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheap"/>
+        <Class IRI="#Cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comfort"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#Polluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Expensive"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#FourPeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#ModeratelyRisky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#VeryFast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cost"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisabledFriendliness"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisabledFriendlyTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EcoFriendlyTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricBike"/>
+        <Class IRI="#TwoWheeler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Low"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Cheap"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#NotAccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Risky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#VerySlow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <Class IRI="#TwoWheeler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Expensive"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#NotAccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#OnePerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Risky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricScooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#Fast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elitist"/>
+        <Class IRI="#Cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expensive"/>
+        <Class IRI="#Cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <Class IRI="#Riverway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Cheap"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDensePickupPoints"/>
+            <Class IRI="#LowDensity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#NotAccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#NotFrequent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Safe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#Fast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FivePeople"/>
+        <Class IRI="#MaxCapacity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FourPeople"/>
+        <Class IRI="#MaxCapacity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Free"/>
+        <Class IRI="#Cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequency"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequent"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High"/>
+        <Class IRI="#Comfort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighDensity"/>
+        <Class IRI="#PickupPointsDensity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Expensive"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#FivePeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#ModeratelyRisky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridOrElectricCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#VeryFast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LittlePolluting"/>
+        <Class IRI="#CarbonFootprint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low"/>
+        <Class IRI="#Comfort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowDensity"/>
+        <Class IRI="#PickupPointsDensity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LuxuryTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaxCapacity"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium"/>
+        <Class IRI="#Comfort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumDensity"/>
+        <Class IRI="#PickupPointsDensity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate"/>
+        <Class IRI="#Cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeratelyRisky"/>
+        <Class IRI="#Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoreThanFivePeople"/>
+        <Class IRI="#MaxCapacity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorbike"/>
+        <Class IRI="#TwoWheeler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorbike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#VeryPolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorbike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorbike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Expensive"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorbike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#NotAccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorbike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorbike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Risky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorbike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#VeryFast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <Class IRI="#Railway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Cheap"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDensePickupPoints"/>
+            <Class IRI="#HighDensity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#Frequent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Safe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#Fast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoPolluting"/>
+        <Class IRI="#CarbonFootprint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotAccessibleToDisabledPerson"/>
+        <Class IRI="#DisabledFriendliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotFrequent"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnDemand"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnePerson"/>
+        <Class IRI="#MaxCapacity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personal"/>
+        <Class IRI="#Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PickupPointsDensity"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polluting"/>
+        <Class IRI="#CarbonFootprint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway"/>
+        <Class IRI="#Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#MoreThanFivePeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risky"/>
+        <Class IRI="#Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riverway"/>
+        <Class IRI="#Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riverway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#MoreThanFivePeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roadway"/>
+        <Class IRI="#Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#VeryPolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Elitist"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#NotAccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#FivePeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#ModeratelyRisky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#VeryFast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safe"/>
+        <Class IRI="#Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safety"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#VeryPolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Elitist"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#FivePeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#ModeratelyRisky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SedanCar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#VeryFast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shared"/>
+        <Class IRI="#Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slow"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed"/>
+        <Class IRI="#TransportModeProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuitableForAnEmergencyTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuitableForFamiliesTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuitableForLargeGroupTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuitableForSchoolGroupTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuitableForWorkersTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <Class IRI="#Roadway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#VeryPolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Moderate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDensePickupPoints"/>
+            <Class IRI="#MediumDensity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#ModeratelyRisky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#VeryFast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <Class IRI="#Railway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Cheap"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDensePickupPoints"/>
+            <Class IRI="#HighDensity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#Frequent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Safe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tramway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#Fast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportMode"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportModeProperty"/>
+        <Class IRI="#ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoPeople"/>
+        <Class IRI="#MaxCapacity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoWheeler"/>
+        <Class IRI="#Personal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoWheeler"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxCapacity"/>
+            <Class IRI="#TwoPeople"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnipersonalRiskyTransportMode"/>
+        <Class IRI="#TransportMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValuePartition"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VeryFast"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VeryPolluting"/>
+        <Class IRI="#CarbonFootprint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VerySlow"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <Class IRI="#Personal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#NoPolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Low"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Free"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#OnDemand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Safe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#VerySlow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <Class IRI="#Railway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarbonFootprint"/>
+            <Class IRI="#LittlePolluting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComfort"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCost"/>
+            <Class IRI="#Cheap"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDensePickupPoints"/>
+            <Class IRI="#MediumDensity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisabledFriendliness"/>
+            <Class IRI="#AccessibleToDisabledPerson"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#NotFrequent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRisk"/>
+            <Class IRI="#Safe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train_(suburbs)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#Slow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AccessibleToDisabledPerson"/>
+        <Class IRI="#NotAccessibleToDisabledPerson"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bike"/>
+        <Class IRI="#ElectricScooter"/>
+        <Class IRI="#Motorbike"/>
+        <Class IRI="#SedanCar"/>
+        <Class IRI="#Walk"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Taxi"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CarbonFootprint"/>
+        <Class IRI="#Comfort"/>
+        <Class IRI="#Cost"/>
+        <Class IRI="#DisabledFriendliness"/>
+        <Class IRI="#Frequency"/>
+        <Class IRI="#PickupPointsDensity"/>
+        <Class IRI="#Safety"/>
+        <Class IRI="#Speed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cheap"/>
+        <Class IRI="#Elitist"/>
+        <Class IRI="#Expensive"/>
+        <Class IRI="#Free"/>
+        <Class IRI="#Moderate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Comfort"/>
+        <Class IRI="#LowDensity"/>
+        <Class IRI="#MediumDensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fast"/>
+        <Class IRI="#Slow"/>
+        <Class IRI="#VeryFast"/>
+        <Class IRI="#VerySlow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Frequent"/>
+        <Class IRI="#NotFrequent"/>
+        <Class IRI="#OnDemand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#High"/>
+        <Class IRI="#Low"/>
+        <Class IRI="#Medium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LittlePolluting"/>
+        <Class IRI="#NoPolluting"/>
+        <Class IRI="#Polluting"/>
+        <Class IRI="#VeryPolluting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Métro"/>
+        <Class IRI="#Tramway"/>
+        <Class IRI="#Train_(suburbs)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PickupPointsDensity"/>
+        <Class IRI="#Risky"/>
+        <Class IRI="#Safe"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCarbonFootprint"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasComfort"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCost"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDensePickupPoints"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDisabledFriendliness"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRisk"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpeed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCarbonFootprint"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasComfort"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCost"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasDensePickupPoints"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasDisabledFriendliness"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasFrequency"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMaxCapacity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasRisk"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSpeed"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCarbonFootprint"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComfort"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCost"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDensePickupPoints"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDisabledFriendliness"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaxCapacity"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRisk"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpeed"/>
+        <Class IRI="#TransportMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCarbonFootprint"/>
+        <Class IRI="#CarbonFootprint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComfort"/>
+        <Class IRI="#Comfort"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCost"/>
+        <Class IRI="#Cost"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDensePickupPoints"/>
+        <Class IRI="#PickupPointsDensity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDisabledFriendliness"/>
+        <Class IRI="#DisabledFriendliness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <Class IRI="#Frequency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaxCapacity"/>
+        <Class IRI="#MaxCapacity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRisk"/>
+        <Class IRI="#Safety"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpeed"/>
+        <Class IRI="#Speed"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AffordableAndAccessibleTransportMode</IRI>
+        <Literal>For allowing urban transport access to the largest part of townspeople, with the highest possible density of pickup points, and the lowest possible cost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BestQualityPriceRatioTransportMode</IRI>
+        <Literal>For people who search for the best quality/price ratio (i.e. the most comfortable and fast transport mode at the lowest price)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DisabledFriendlyTransportMode</IRI>
+        <Literal>For disabled people, who need adapted transport modes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EcoFriendlyTransportMode</IRI>
+        <Literal>For people who want to find a transport mode which respects the environment, thus contributing to a sustainable development of the city</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LuxuryTransportMode</IRI>
+        <Literal>For VIPs, businessmen, or just married people who want to underline their social status... or simply to show their love to the world !</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuitableForAnEmergencyTransportMode</IRI>
+        <Literal>For medical emergencies, which requires high frequency and high speeds (but also... safety !)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuitableForFamiliesTransportMode</IRI>
+        <Literal>For families, who may want a secure and safe transport mode, with a certain level of comfort, and able to accept up to five people</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuitableForLargeGroupTransportMode</IRI>
+        <Literal>For large groups of tourists, who may participate in an organized trip for example</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuitableForSchoolGroupTransportMode</IRI>
+        <Literal>For school groups, where security and safety is crucial, and cost must be relatively low</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuitableForWorkersTransportMode</IRI>
+        <Literal>For employees who need to go to work, and thus relying on quite frequent transport mode, at a &apos;reasonable&apos; cost (note that this covers workers and managers, who have different budgets)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TransportMode</IRI>
+        <Literal>Classes describing the different transport modes, which will be used to recommend the best choice for a user, depending on its needs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TransportModeProperty</IRI>
+        <Literal>Classes defining the properties of each transport mode, intrinsics (i.e. cost, frequency, speed) or related to their availability in the city (i.e. density, frequency)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnipersonalRiskyTransportMode</IRI>
+        <Literal>For young people who don&apos;t care to take risks, &apos;old&apos; bikers, or simply tourists who may want to discover the city using an exotic transport mode...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ValuePartition</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
